@@ -4,7 +4,7 @@ I work on research-shaped AI engineering problems in optimal transport, multimod
 
 My strength is naive, stubborn questioning. I question assumptions even when they are stated confidently or treated as given. I like translating technical concepts into language I can actually reason with, then testing whether the idea still survives in code.
 
-My thesis work focused on warm-start algorithms for bipartite matching and optimal transport. The projects I'm currently working on in my personal time
+My thesis work focused on warm-start algorithms for bipartite matching and optimal transport. Here are the projects I'm currently working on in my personal time:
 
 **OTCO** comes from a question I had while reading about how OT is often used in multimodal learning: as a regularizer or a way to align distributions. But OT is also a mapping. If that mapping contains structure, can we use it more intelligently to generate synthetic hard negatives for multimodal contrastive learning?
 
