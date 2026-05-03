@@ -8,7 +8,7 @@ My thesis work focused on warm-start algorithms for bipartite matching and optim
 
 **OTCO** comes from a question I had while reading about how OT is often used in multimodal learning: as a regularizer or a way to align distributions. But OT is also a mapping. If that mapping contains structure, can we use it more intelligently to generate synthetic hard negatives for multimodal contrastive learning?
 
-**exactness-triage** comes from a similar instinct. Agent memory and context compaction often lean on summarization because LLMs are good at it. I wanted to test the assumption behind that move: some tool outputs may contain exact, load-bearing details — a key name, a failing diff, a specific error string — that should be preserved before compression, not reconstructed after summarization.
+**exactness-triage** comes from a similar instinct. Agent memory and context compaction often lean on summarization because LLMs are good at it. I wanted to test the assumption behind that move: some tool outputs may contain exact, load-bearing details (a key name, a failing diff, a specific error string) that should be preserved before compression, not reconstructed after summarization.
 
 The common thread: I like questioning the default interpretation of a technique, then building the smallest experiment I can to see whether the idea survives contact with reality.
 
